@@ -1,0 +1,53 @@
+open new powershell or apples version of it
+CAUTION WITH POWERSHELL
+type pwd or PWD in the line
+the result is the present working directory
+example C:\Users\smith
+_________________________
+type ls in the line
+the result is the contents of the directory
+example C:\Users\smith
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          8/7/2012   4:32 AM                .joe
+d-r---         3/29/2011   4:00 PM                6D Objects
+d-----          1/3/2018  11:24 AM                ansel
+d-r---         12/29/2011   4:00 PM               Cons
+dar--l         9/29/2012   2:04 AM                Onrive
+-a----         6/25/2019   3:15 PM             90 .config
+-a----         4/25/2012   4:51 AM             80 .les
+Take one of your choosing for the answer 
+example: ansel SUCCESS
+________________________
+cedric/
+├── robot_thoughts/
+│ ├── real_boy.idea
+│ └── youtube_video.mp4
+│
+├── thank_you_drafts/
+│ ├── thank_you_toast.docx
+│ ├── thank_you_toast_v1.docx
+│ ├── thank_you_toast_v2.docx
+│ └── thank_you_toast_v2_Final.docx
+│
+├── fog_owl_computations.csv
+└── my_cool_drawing.png
+
+find present working directory would be:
+cedric/ Change to robot
+cedric\robot_thoughts
+
+find present working directory in
+cedric/ change to .csv
+cedric
+fog_owl_computations.csv is a file. you cant move into a file
+___________________________
+mkdir old_directory
+#creates folder
+cd old_directory
+#moves us to inside that folder to create
+mkdir new_directory
+#the new folder inside. new inside old. old outside new
+pwd
+#to see the path you are on to copy and paste or type to answer
+_______________________
